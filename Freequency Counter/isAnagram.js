@@ -51,5 +51,3 @@ var isAnagram = function (s, t) {
 function cleanString(str) {
   return str.split("").sort().join("");
 }
-
-console.log(isAnagram("anagram", "nagaram"));
