@@ -33,10 +33,6 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
-  if (nums.length < 2) {
-    return null;
-  }
-
   for (let p1 = 0; p1 < nums.length; p1++) {
     numberToFind = target - nums[p1];
 
